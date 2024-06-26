@@ -1,7 +1,7 @@
 from typing import List
-import todo_item
+from .todo_item import TodoItem
 class TodoList():
-    def __init__(self, items:List[todo_item.TodoItem]):
+    def __init__(self, items:List[TodoItem]):
         self.items = items
 
         
